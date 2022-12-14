@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de artículos</title>
+</head>
+
+<body>
+    <div>
+
+        <h1>Administración de artículos</h1>
+
+    </div>
+
+    <div>
+        <table border="1">
+            <caption>Artículos</caption>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Borrar</th>
+                    <th>Seleccionar</th>
+                </tr>
+            </thead>
+            <tbody id="tabla"></tbody>
+        </table>
+    </div>
+
+    <div>
+
+        <form id="form">
+            <div>
+                <label for="_codigo">Código</label>
+                <input type="number" name="_codigo" id="_codigo">
+            </div>
+
+            <div>
+                <label for="_des">Descripción</label>
+                <input type="text" name="_des" id="_des">
+            </div>
+
+            <div>
+                <label for="_precio">Precio</label>
+                <input type="number" name="_precio" id="_precio">
+            </div>
+
+            <div>
+                <button id="agregar" type="submit">Agregar</button>
+                <button id="modificar" type="button" id="modificar">Modificar</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+<footer>
+    <script src="/logica.js"></script>
+</footer>
+
+</html>
